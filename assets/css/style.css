@@ -1,0 +1,23 @@
+body {
+    background-color: #141414;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+header nav.cabecalho__menu ul {
+    display: flex;
+}
+header nav.cabecalho__menu ul li{
+    padding: 5px;
+}
+header nav.cabecalho__menu ul li a{
+    color: #E5E5E5;
+}
+
+
+header div.cabecalho__menuConfig ul {
+    display: flex;
+    color: #E5E5E5;
+    justify-content: right;
+}
