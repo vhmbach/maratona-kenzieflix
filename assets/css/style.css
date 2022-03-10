@@ -1,23 +1,100 @@
 body {
+    
+}
+
+figcaption {
+    display: none;
+}
+
+img {
+    max-width: 1200px;
+}
+
+.cabecalho {
     background-color: #141414;
+    padding: 16px 0;
 }
-header {
+
+.cabecalho .cabecalho__logo {
+    text-align: center;
+
+}
+.cabecalho .cabecalho__logo img {}
+
+.cabecalho .cabecalho__menu, .cabecalho .cabecalho__menuConfig {
+    display: none;
+}
+
+.cabecalho .cabecalho__menu {}
+.cabecalho .cabecalho__menu ul {}
+.cabecalho .cabecalho__menu ul li {}
+.cabecalho .cabecalho__menu ul li a {}
+
+.cabecalho .cabecalho_menuConfig {}
+.cabecalho .cabecalho_menuConfig ul {}
+.cabecalho .cabecalho_menuConfig ul li {}
+.cabecalho .cabecalho_menuConfig ul li a {}
+
+main {}
+
+.secaoDestaque {
+    background-image: url(../img/destaque.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 0 22px;
+}
+
+.secaoDestaque .secaoDestaque__imagemDestaque {
+    display: none;
+}
+.secaoDestaque .secaoDestaque__imagemDestaque img{
     width: 100%;
-    display: flex;
-}
-header nav.cabecalho__menu ul {
-    display: flex;
-}
-header nav.cabecalho__menu ul li{
-    padding: 5px;
-}
-header nav.cabecalho__menu ul li a{
-    color: #E5E5E5;
 }
 
-
-header div.cabecalho__menuConfig ul {
-    display: flex;
+.secaoDestaque .secaoDestaque__descricaoDestaque {
     color: #E5E5E5;
-    justify-content: right;
 }
+.secaoDestaque .secaoDestaque__descricaoDestaque h1 {}
+.secaoDestaque .secaoDestaque__descricaoDestaque h1 img {
+    width: 100%;
+    max-width: 180px;
+}
+.secaoDestaque .secaoDestaque__descricaoDestaque p {
+    margin: 10px 0;
+    font-size: 0.8rem;
+}
+
+.secaoDestaque .secaoDestaque__navegacaoDestaque {}
+.secaoDestaque .secaoDestaque__navegacaoDestaque a {
+    font-size: 0.9rem;
+    background-color: white;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.secaoFilmes {}
+.secaoFilmes h2 {}
+
+.secaoFilmes .secaoFilmes___listaFilmes {}
+.secaoFilmes .secaoFilmes___listaFilmes ul {}
+.secaoFilmes .secaoFilmes___listaFilmes li {}
+.secaoFilmes .secaoFilmes___listaFilmes li figure {}
+.secaoFilmes .secaoFilmes___listaFilmes li figure img {}
+
+.rodape {}
+.rodape .rodape__midiasSociais {}
+.rodape .rodape__midiasSociais ul {}
+.rodape .rodape__midiasSociais ul li {}
+.rodape .rodape__midiasSociais ul a {}
+.rodape .rodape__midiasSociais ul img {}
+
+.rodape .rodape__menuNavegacao {}
+.rodape .rodape__menuNavegacao ul {}
+.rodape .rodape__menuNavegacao ul li {}
+.rodape .rodape__menuNavegacao ul li a {}
+
+.rodape .rodape__linkCodigo {}
+.rodape p {}
